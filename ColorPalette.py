@@ -215,7 +215,7 @@ if __name__ == '__main__':
     new_item.add_command(label='New', command=clear_data)
     new_item.add_command(label='Open', command=load_data)
     new_item.add_command(label='Save', command=save_data)
-    menu.add_cascade(label='Fail', menu=new_item)
+    menu.add_cascade(label='File', menu=new_item)
 
     window.config(menu=menu)
 
